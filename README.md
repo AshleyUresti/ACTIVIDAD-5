@@ -118,6 +118,16 @@ Evidencias de ejecución
 Para este punto, ya había mudado el proyecto original a un archivo JavaFX
 
 ---
+### ¿Qué ventajas tiene usar una clase Estudiante en lugar manejar todo desde TextField?
+
+ Al utilizar los TextField, los datos que se registran existirían únicamente como texto suelto dentro de la interfaz. No tendrían estructura, no se podrían validar y estarían mezclados con la lógica visual. La clase Estudiante permite que los datos esten organizados en un objeto que es independiente de la interfaz.
+ 
+Conceptos de POO utilizados:
+- Encapsulamiento: los atributos "nombreEstudiante" y "matriculaEstudiantes" son privados, por lo que solo se accede a ellos mediante getters y setters, o sea, getNombreEstudiante() y setMatriculaEstudiantes().
+
+- Abstracción: la clase "Estudiante" representa un concepto del mundo real, reducido a lo esencial para el programa (nombre y matrícula), ocultando los detalles de implementación al resto del código.
+
+---
 
 ### Usos de IA:
 Para esta actividad me apoyé de la IA claude para familiarizarme con el entorno JavaFX, ya que al crear un proyecto de este tipo, encuentras muchos archivos y carpetas, por lo que no sabía en dónde iniciar el programa. También utilicé su guia para crear los layouts (vbox) y el stage scene.
